@@ -1,8 +1,24 @@
 aid: avid-ventures
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/avid-ventures.png
 name: Avid Ventures
-description: 'Avid Ventures is a company surfaced as a portfolio company of foundry-group and added to
-  the API Evangelist network as a stub for enrichment. Sector: venture-capital. This profile is a lead
-  awaiting the enrichment pipeline.'
+description: 'Avid Ventures is a boutique early-stage venture capital firm founded in 2021 by Addie Lerner
+  Katz, backing founders from pre-incorporation through growth across fintech, consumer, software, and
+  emerging AI. The firm emphasizes hands-on, vertically integrated support — recruiting, go-to-market
+  and customer introductions, and fundraising help — investing across the U.S., Europe, and Israel. It
+  launched with a $68M debut fund in February 2021 and raised an $87M Fund II in September 2024 (roughly
+  $165M in total capital under management). Surfaced as a portfolio-adjacent firm of Foundry Group and
+  profiled in the API Evangelist network as a venture-capital company record.'
 url: https://raw.githubusercontent.com/api-evangelist/avid-ventures/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +28,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Venture Capital
+- Early Stage
+- Fintech
+- Consumer
+- Software
+- Artificial Intelligence
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +44,20 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/avid-ventures-domain-security.yml
 - type: Website
   url: https://www.avidventures.com
+- type: Blog
+  url: https://www.avidventures.com/#news
+- type: LinkedIn
+  url: https://www.linkedin.com/in/addielernerkatz/
+- type: Twitter
+  url: https://x.com/addielerner
+- type: YouTube
+  url: https://www.youtube.com/@AvidVC
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
